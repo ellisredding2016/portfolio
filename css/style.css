@@ -1,0 +1,120 @@
+html{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  border:0;
+  font-family: 'PT Serif', serif;
+  background-color: black;
+  }
+
+#mainNav{
+  list-style:none;
+  position:fixed;
+  width:100%;
+  z-index:9999;
+  background-color:#020405;
+  
+}
+.navList{
+  float:right;
+  width:50%;
+  padding-top: 0.0rem;
+  
+}
+
+.navList > li {
+  display:inline; 
+  padding: 2.5rem ;  
+  font-size:1.25em;
+  color:#fca141;
+  
+}
+
+a {
+  color:#fca141;
+  text-decoration:none;
+}
+
+h1 {
+  color:#ffb262;
+  float:left;
+  padding-left:1.5rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  width:35%;
+}
+
+#sub{
+  font-size:1.5rem;
+}
+#main{
+  background-image:url(https://www.dropbox.com/s/avmewlsl8is4otc/279H.jpg?dl=1);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 75.938rem;
+  padding-left: 1.5rem;
+}
+
+.spacer{
+  height:15rem;
+}
+
+h2{
+  color:#a45705;
+ 
+  font-weight: lighter;
+  text-decoration:underline;
+}
+
+#details {
+  padding-left: 1.5rem;
+  font-size: 1.25rem;
+  color:#ffb262;
+  width:35%;
+  background-color: black;
+  
+}
+
+.projects{
+  width:30rem;
+}
+
+h3 {
+  color:#a45705;
+  font-weight:lighter;
+  text-decoration: underline;
+
+
+}
+
+@media only screen and (max-width: 525px){
+  #details{ font-size: .85rem;}
+  .navList > li{
+    font-size:.85rem;
+    display:block;
+    padding-top:.1rem;
+    padding-bottom:.1rem;
+  }
+  h1{font-size:2.25rem;}
+  sub{font-size:1.75rem;}
+  .projects{width:20rem;}
+}
+
+@media only screen and (min-width: 525px) and (max-width:750px){
+  .navList > li {
+    font-size:1rem;
+    padding: 2.5rem .25rem;
+   
+
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width:1450px){
+  .navList > li {
+    font-size:1.25rem;
+    padding: 2.5rem 1rem;
+   
+
+  }
+}
