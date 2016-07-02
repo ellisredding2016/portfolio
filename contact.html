@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - ASP.Net C# Web Developer</title>
+	<link rel="stylesheet" href="css/style-contact.css">
+	<link rel="stylesheet" href="css/style-form.css">
+	<script src="jquery-2.1.0.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div id="header">
+		<ul id="navList">
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contacts</a></li>
+		</ul>
+	</div>
+	<div id="subheader-container">
+		<div id="subheader">
+			<img src="./images/headline.jpg" alt="Simple" width="500px">
+		</div>
+	</div>
+
+	<div id="form-messages">
+	
+	<h1> Send me an Email </h1>
+		<div>
+			<form id="ajax-contact" method="post" action="mailer.php">
+		    <div class="field">
+		        <label for="name">Name:</label>
+		        <input type="text" id="name" name="name" required>
+		    </div>
+
+		    <div class="field">
+		        <label for="email">Email:</label>
+		        <input type="email" id="email" name="email" required>
+		    </div>
+
+		    <div class="field">
+		        <label for="message">Message:</label>
+		        <textarea id="message" name="message" required></textarea>
+		    </div>
+
+		    <div class="field">
+		        <button type="submit">Send</button>
+		    </div>
+			</form>
+		</div>
+	</div>
+
+
+	<div id="subfooter">
+		<div id="subfooter-content">
+			<div id="about">
+				<h3>About Me</h3>
+				<p>My Name is Aaron Rowan.  I am a web developer and programmer in the Charlotte, NC area.  I work mostly in Microsoft .NET technologies such as C#, VB, ASP.NET to create applications.  I am also familiar with JavaScript, jQuery, CSS, SQL Server, and AJAX.</p>
+			</div>
+			<div id="connectSmall">
+				<h4>Connect with Me</h4>
+				<a href="https://www.linkedin.com/in/aaron-rowan-35a57320" target="_blank"><img src="./images/social_linked_in.png" id="SideBarPlaceHolder_sidebar1_imgLinkedIn" /></a>
+			</div>
+			<div id="usefulLinks">
+				<h4>Useful Links:
+				<ul id="usefulLinkList">
+					<li><a href="https://www.pexels.com/" alt="">Pexels</a></li>
+					<li><a href="https://www.google.com/fonts" alt="">Google Fonts</a></li>
+					<li><a href="http://fontawesome.io/cheatsheet/" alt="">Font Awesome</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		
+	<div id="footer">
+		<div id="footer-content">
+			<p>Copyright &copy Aaron Rowan. All Rights Reserved.</p>
+		</div>
+	</div>
+	
+</body>
+</html>
