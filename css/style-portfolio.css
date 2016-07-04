@@ -172,3 +172,31 @@ h4 { font-size:1.4rem; }
 
 #usefulLinkList a{	color:white; }
 #usefulLinkList a:visited { color:lightgray; }
+
+@media only screen and (max-width:1000px){
+	#subfooter-content, #footer-content, #navList, #subheader, #main{
+		width: 750px;
+	}
+	#main {overflow: auto;}
+	#connect{margin:auto; float:none;}
+	#main-content,p {width:745px;}
+	.project img{ width:200px; height:115px; }
+	.projectText{margin-left: 215px;width:450px;}
+
+
+}
+@media only screen and (max-width:800px){
+	#subfooter-content, #footer-content, #navList, #subheader, #main{
+		width: 500px;}
+
+
+	.tags {
+		width:100px;}
+
+	#main-content, p, #microdata .project, h1 {width:475px;}
+
+	.projectText, h3{width:200px;}
+	.itemText{margin-left:110px;width:500px;}
+	#main {overflow: auto;}
+	#connect{margin:auto; float:none;}
+}
